@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About me on Home</title>
+    <link>https://gemmact.github.io/about/</link>
+    <description>Recent content in About me on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gemmact.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latest publication: ECCV 2022</title>
+      <link>https://gemmact.github.io/about/mypost/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://gemmact.github.io/about/mypost/</guid>
+      <description>CoGS: Controllable Generation and Search from Sketch and Style</description>
+    </item>
+    
+  </channel>
+</rss>

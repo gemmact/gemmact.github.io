@@ -25,15 +25,23 @@
   
     
       <url>
-            <loc>https://gemmact.github.io/samples/</loc>
-            <lastmod>2022-03-17T00:00:00+00:00</lastmod>
+            <loc>https://gemmact.github.io/about/</loc>
+            <lastmod>2022-10-27T00:00:00+00:00</lastmod>
           </url>
     
   
     
-  
+      <url>
+            <loc>https://gemmact.github.io/about/mypost/</loc>
+            <lastmod>2022-10-27T00:00:00+00:00</lastmod>
+          </url>
     
   
+    
+      <url>
+            <loc>https://gemmact.github.io/publications/</loc>
+            <lastmod>2022-10-27T00:00:00+00:00</lastmod>
+          </url>
     
   
     
@@ -41,6 +49,12 @@
             <loc>https://gemmact.github.io/users/</loc>
             <lastmod>2020-08-14T00:00:00+00:00</lastmod>
           </url>
+    
+  
+    
+  
+    
+  
     
   
     

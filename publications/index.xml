@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Home</title>
+    <link>https://gemmact.github.io/publications/</link>
+    <description>Recent content in Publications on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://gemmact.github.io/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoGS: Controllable Generation and Search from Sketch and Style</title>
+      <link></link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Cusuh Ham*, Gemma Canet Tarrés*, Tu Bui, James Hays, Zhe Lin, John Collomosse | 2022 European Conference on Computer Vision (ECCV)</description>
+    </item>
+    
+    <item>
+      <title>Context-Unsupervised Adversarial Network for Video Sensors</title>
+      <link></link>
+      <pubDate>Thu, 21 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Gemma Canet Tarrés, Montse Pardàs | Multidisciplinary Digital Publishing Institute (SENSORS)</description>
+    </item>
+    
+    <item>
+      <title>Refinement Network for unsupervised on the scene Foreground Segmentation</title>
+      <link></link>
+      <pubDate>Thu, 21 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Montse Pardàs, Gemma Canet Tarrés | 2020 European Signal Processing Conference (EUSIPCO)</description>
+    </item>
+    
+    <item>
+      <title>VLX-Stories: A semantically linked event platform for media publishers</title>
+      <link></link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Dèlia Fernàndez-Cañellas, Joan Espadaler, Blai Garolera, David Rodriguez, Gemma Canet Tarrés, Aleix Colom, Joan Marco Rimmek, Xavier Giró-i-Nieto, Elisenda Bou, Juan Carlos Riveiro | ISWC 2019 Satellite Tracks (Posters &amp;amp; Demonstrations, Industry, and Outrageous Ideas) co-located with 18th International Semantic Web Conference (ISWC 2019)</description>
+    </item>
+    
+    <item>
+      <title>VLX-Stories: Building an online event knowledge base with emerging entity detection</title>
+      <link></link>
+      <pubDate>Thu, 17 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid></guid>
+      <description>Dèlia Fernàndez-Cañellas, Joan Espadaler, David Rodriguez, Blai Garolera, Gemma Canet Tarrés, Aleix Colom, Joan Marco Rimmek, Xavier Giró-i-Nieto, Elisenda Bou, Juan Carlos Riveiro | 2019 International Semantic Web Conference (ISWC)</description>
+    </item>
+    
+  </channel>
+</rss>
