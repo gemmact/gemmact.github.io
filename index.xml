@@ -17,20 +17,20 @@
     </item>
     
     <item>
-      <title>Latest publication: ECCV 2022</title>
+      <title>Latest publication: CVPR WiCV 2024</title>
       <link>https://gemmact.github.io/about/mypost/</link>
-      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 18 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://gemmact.github.io/about/mypost/</guid>
-      <description>CoGS: Controllable Generation and Search from Sketch and Style</description>
+      <description>PARASOL: Parametric Style Control for Diffusion Image Synthesis</description>
     </item>
     
     <item>
       <title>Contact me</title>
-      <link>https://gemmact.github.io/users/</link>
+      <link>https://gemmact.github.io/contact/</link>
       <pubDate>Fri, 14 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://gemmact.github.io/users/</guid>
+      <guid>https://gemmact.github.io/contact/</guid>
       <description>Online Contact E-mail g.</description>
     </item>
     
