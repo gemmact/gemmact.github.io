@@ -169,44 +169,67 @@
           <p>
 
 
-
-
-
-
-
-
-          <figure>
-            <img class="my-0 rounded-md" srcset="
-          /parasol/wicv24_contentstyleinferenceandtrain.png"
-              src="/parasol/wicv24_contentstyleinferenceandtrain.png"
-              alt="PARASOL: Parametric Style Control for Diffusion Image Synthesis" />
-
-          </figure>
-
-
-          </p>
           <div class="lead !mb-9 text-xl">
-            <p>Find the <a href="https://arxiv.org/abs/2303.06464" target="_blank">Arxiv paper</a>. Code and data to be
-              released soon.</p>
+            <b>Find the <a href="https://arxiv.org/abs/2303.06464" target="_blank">Arxiv paper</a>. Code and data to be
+              released soon.</b>
 
-  
+            <p>We propose PARASOL, a multi-modal synthesis model that enables disentangled, parametric control of the
+              visual style of the image by jointly conditioning synthesis on both content and a fine-grained visual
+              style embedding. We train a latent diffusion model (LDM) using specific losses for each modality and adapt
+              the classifier-free guidance for encouraging disentangled control over independent content and style
+              modalities at inference time. We leverage auxiliary semantic and style-based search to create training
+              triplets for supervision of the LDM, ensuring complementarity of content and style cues. PARASOL shows
+              promise for enabling nuanced control over visual style in diffusion models for image creation and
+              stylization, as well as generative search where text-based search results may be adapted to more closely
+              match user intent by interpolating both content and style descriptors.</p>
+
+
 
           </div>
 
           <figure>
             <img class="my-0 rounded-md" srcset="
-          /parasol/styleinterpolation.png"
-              src="/parasol/styleinterpolation.png"
-              alt="PARASOL: Parametric Style Control for Diffusion Image Synthesis" />
+            /parasol/teaser.png" src="/parasol/teaser.png" alt="Teaser Image" />
+
+          </figure>
+
+
+          <h2>Training and Sampling Pipeline
+          </h2>
+
+          <div class="lead !mb-9 text-xl">
+
+            <p>The backbone of PARASOL is a Latent Diffusion Model that is adapted for encouraging style/content
+              disentanglement and enhanced user control over the output.</p>
+
+
+          </div>
+
+          
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+          /parasol/wicv24_contentstyleinferenceandtrain.png" src="/parasol/wicv24_contentstyleinferenceandtrain.png"
+              alt="PARASOL Pipeline" />
+
+          </figure>
+
+
+          </p>
+
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+          /parasol/styleinterpolation.png" src="/parasol/styleinterpolation.png"
+              alt="Style Interpolation Examples" />
 
           </figure>
 
 
           <figure>
             <img class="my-0 rounded-md" srcset="
-          /parasol/contentinterpolation.png"
-              src="/parasol/contentinterpolation.png"
-              alt="PARASOL: Parametric Style Control for Diffusion Image Synthesis" />
+          /parasol/contentinterpolation.png" src="/parasol/contentinterpolation.png"
+              alt="Content Interpolation Examples" />
 
           </figure>
 
