@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light" data-auto-appearance="true">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="content-language" content="en" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+
+  <title>Multitwine: Multi-Object Compositing with Text and Layout Control &middot; Home</title>
+  <meta name="title" content="multitwine &middot; Home" />
+
+  <meta name="description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+
+
+
+  <link rel="canonical" href="https://gemmact.github.io/multitwine/" />
+  <link rel="alternate" type="application/rss+xml" href="/multitwine/index.xml" title="Home" />
+
+
+
+
+
+
+
+
+
+
+  <link type="text/css" rel="stylesheet"
+    href="/css/main.bundle.min.bed62dd0cf965af239590e05e10d564b0a57ba75fcaac90ddee1090eef65b49222cff01013470d6b41644474530458fe2c39f0fe53d1096e54b200591274479b.css"
+    integrity="sha512-vtYt0M&#43;WWvI5WQ4F4Q1WSwpXunX8qskN3uEJDu9ltJIiz/AQE0cNa0FkRHRTBFj&#43;LDnw/lPRCW5UsgBZEnRHmw==" />
+
+
+  <script type="text/javascript"
+    src="/js/appearance.min.1e44157c1e51b46341ce2c94716dd3dd1ef30c28e7d1c9f3b9db80877bfe72bc66b00d8a662f317840016acbed93c5f18c3d9268c8b957021ee74d0b04adf6c5.js"
+    integrity="sha512-HkQVfB5RtGNBziyUcW3T3R7zDCjn0cnzuduAh3v&#43;crxmsA2KZi8xeEABasvtk8XxjD2SaMi5VwIe500LBK32xQ=="></script>
+
+
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+
+
+
+
+
+
+  <meta property="og:title" content="Publications" />
+  <meta property="og:description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gemmact.github.io/multitwine/" />
+  <meta property="og:site_name" content="Home" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Publications" />
+  <meta name="twitter:description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+
+
+
+
+
+  <meta name="author" content="Gemma Canet Tarrés" />
+
+
+  <link href="g.canettarres@surrey.ac.uk" rel="me" />
+
+  <link href="https://www.surrey.ac.uk/people/gemma-canet-tarres/" rel="me" />
+
+  <link href="https://github.com/gemmact" rel="me" />
+
+  <link href="https://scholar.google.com/citations?user=upj-lOAAAAAJ&amp;hl=en&amp;oi=sra/" rel="me" />
+
+  <link href="https://www.linkedin.com/in/gemmacanettarres/" rel="me" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+
+
+  <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+    <nav class="flex items-start justify-between sm:items-center">
+
+      <div class="flex flex-row items-center">
+
+        <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel="me"
+          href="/">Home</a>
+
+
+
+      </div>
+
+
+      <ul class="flex list-none flex-col ltr:text-right rtl:text-left sm:flex-row">
+
+
+        <li class="mb-1 sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/about/"
+            title="About me">About me</a>
+        </li>
+
+        <li class="mb-1 sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+            href="/publications/" title="Publications">Publications</a>
+        </li>
+
+        <li class="mb-1">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/contact/"
+            title="Contact me">Contact</a>
+        </li>
+
+
+
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+
+
+      <header>
+
+        <h1 align=center class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Multitwine:
+          Multi-Object Compositing with Text and Layout Control</h1>
+      </header>
+      <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+
+        <div class="min-w-0 min-h-0 max-w-fit grow">
+
+
+          <div class="lead !mb-9 text-xl">
+            <b>Arxiv paper link will be uploaded soon.</b>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+                /multitwine/teaser.png" src="/multitwine/teaser.png" alt="Teaser Image" />
+
+            </figure>
+
+            <h2>Abstract</h2>
+
+            <p>We introduce the first generative model capable of simultaneous multi-object compositing, guided by both
+              text and layout. Our model allows for the addition of multiple objects within a scene, capturing a range
+              of interactions from simple positional relations (e.g., "next to", "in front of") to complex actions
+              requiring reposing (e.g., "hugging", "playing guitar"). When an interaction implies additional props,
+              like `taking a selfie', our model autonomously generates these supporting objects. By jointly training for
+              compositing and subject-driven generation, also known as customization, we achieve a more
+              balanced integration of textual and visual inputs for text-driven object compositing. As a result, we
+              obtain a versatile model with state-of-the-art performance in both tasks. We further present a data
+              generation pipeline leveraging visual and language models to effortlessly synthesize multimodal, aligned
+              training data.</p>
+
+
+
+          </div>
+
+
+
+
+          <h2>Model Architecture
+          </h2>
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+        /multitwine/pipeline.png" src="/multitwine/pipeline.png" alt="Model Architecture" />
+
+
+          </figure>
+
+          <div class="lead !mb-9 text-xl">
+
+            <p>Our model consists of: (i) A Stable Diffusion backbone including a U-Net and an
+              autoencoder (G, D); (ii) a text encoder (E<sub>T</sub>); (iii) an image encoder
+              (E<sub>I</sub>); and (iv) an adaptor (A). Given a text prompt (C) and images of N
+              objects (O<sub>0..N-1</sub>), the text embedding from (iii) is augmented by concatenating each
+              image embedding after their corresponding text tokens. The resulting multimodal embedding (H) is
+              fed to the U-Net via cross-attention. Masked background image ((1-M<sub>G</sub>)*I<sub>BG</sub>) and
+              layout (I<sub>L</sub>) with object-specific bboxes are concatenated to input (I). </p>
+
+
+
+
+          </div>
+
+
+
+
+
+
+
+          <h2>Comparison to Generative Object Compositing Models
+          </h2>
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+          /multitwine/baselinescomp.png" src="/multitwine/baselinescomp.png"
+              alt="Comparison to Generative Composition Models" />
+
+
+          </figure>
+
+          <div class="lead !mb-9 text-xl">
+
+            <p>We compare to recent generative object compositing models. These models support compositing from a single
+              object, background, and bounding box, requiring sequential runs to add multiple objects individually. By
+              compositing multiple objects simultaneously rather than sequentially, Multitwine displays multiple
+              benefits: (i) it enables more cohesive harmonization and appearance consistency across objects and the
+              scene (rows 1 - 5);
+              (ii) it captures complex interactions involving object reposing with ease (rows 1, 6, 7); and (iii) with
+              text guidance, the model can naturally complete scenes by adding any additional elements needed for
+              realism (row 7). </p>
+
+
+          </div>
+
+
+          <h2>Comparison to Customization Models
+          </h2>
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+          /multitwine/baselinescustom.png" src="/multitwine/baselinescustom.png"
+              alt="Comparison to Customization Models" />
+
+
+          </figure>
+
+          <div class="lead !mb-9 text-xl">
+
+            <p>Our primary task is Object Compositing, but we also train for Subject-Driven Generation as an auxiliary
+              task for achieving a better balance between text and image alignment in the compositing task. As a side
+              effect, our model is also able to perform Multi-Entity Subject-Driven Generation, achieving comparable
+              performance to state-of-the-art customization models.</p>
+
+
+          </div>
+
+
+          <h2>Applications
+          </h2>
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+          /multitwine/applications.png" src="/multitwine/applications.png" alt="Applications" />
+
+          </figure>
+
+
+          <p>Although not explicitly trained for them, our model exhibits some emerging capabilities.</p>
+          <p><b>Top Example (Multi-Object Generation):</b> our model is able to perform multi-object compositing with
+            more than two objects. By learning one-to-one object interactions, it develops a strong prior that allows it
+            to generalize to compositing multiple objects simultaneously.</p>
+          <p><b>Bottom Example (Subject-Driven Inpainting):</b> Our joint training on object compositing and
+            customization enables the model to learn key subtasks, such as background synthesis, blending,
+            harmonization, and reposing. These skills can be applied to subject-driven inpainting. In this task, the
+            model uses text and layout guidance to seamlessly complete a scene, generating and integrating additional
+            objects while maintaining a natural and coherent composition with the given visuals.</p>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+    </main>
+    <footer class="py-10 print:hidden">
+
+
+      <div class="flex items-center justify-between">
+        <div>
+
+
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2024
+            Gemma Canet Tarrés
+          </p>
+
+
+
+          <p class="text-xs text-neutral-500 dark:text-neutral-400">
+
+
+            Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+              href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a
+              class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+              href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+    </footer>
+
+  </div>
+</body>
+
+</html>

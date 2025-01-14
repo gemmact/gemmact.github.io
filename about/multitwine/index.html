@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="light" data-auto-appearance="true">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta http-equiv="content-language" content="en" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="rgb(255,255,255)" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+
+  <title>Multitwine: Multi-Object Compositing with Text and Layout Control &middot; Home</title>
+  <meta name="title" content="multitwine &middot; Home" />
+
+  <meta name="description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+
+
+
+  <link rel="canonical" href="https://gemmact.github.io/multitwine/" />
+  <link rel="alternate" type="application/rss+xml" href="/multitwine/index.xml" title="Home" />
+
+
+
+
+
+
+
+
+
+
+  <link type="text/css" rel="stylesheet"
+    href="/css/main.bundle.min.bed62dd0cf965af239590e05e10d564b0a57ba75fcaac90ddee1090eef65b49222cff01013470d6b41644474530458fe2c39f0fe53d1096e54b200591274479b.css"
+    integrity="sha512-vtYt0M&#43;WWvI5WQ4F4Q1WSwpXunX8qskN3uEJDu9ltJIiz/AQE0cNa0FkRHRTBFj&#43;LDnw/lPRCW5UsgBZEnRHmw==" />
+
+
+  <script type="text/javascript"
+    src="/js/appearance.min.1e44157c1e51b46341ce2c94716dd3dd1ef30c28e7d1c9f3b9db80877bfe72bc66b00d8a662f317840016acbed93c5f18c3d9268c8b957021ee74d0b04adf6c5.js"
+    integrity="sha512-HkQVfB5RtGNBziyUcW3T3R7zDCjn0cnzuduAh3v&#43;crxmsA2KZi8xeEABasvtk8XxjD2SaMi5VwIe500LBK32xQ=="></script>
+
+
+
+
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+
+
+
+
+
+
+  <meta property="og:title" content="Publications" />
+  <meta property="og:description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gemmact.github.io/multitwine/" />
+  <meta property="og:site_name" content="Home" />
+
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Publications" />
+  <meta name="twitter:description"
+    content="I&#39;m a Computer Vision PhD student advised by Prof. John Collomosse and Dr Andrew Gilbert at University of Surrey. My research interests are in the broad aread of computer vision and machine learning, with a focus on deep learning. Particularly, I am interested in image generation, image editing and style transfer. My current research is in Multimodal Image Generation using Diffusion Models." />
+
+
+
+
+
+  <meta name="author" content="Gemma Canet Tarrés" />
+
+
+  <link href="g.canettarres@surrey.ac.uk" rel="me" />
+
+  <link href="https://www.surrey.ac.uk/people/gemma-canet-tarres/" rel="me" />
+
+  <link href="https://github.com/gemmact" rel="me" />
+
+  <link href="https://scholar.google.com/citations?user=upj-lOAAAAAJ&amp;hl=en&amp;oi=sra/" rel="me" />
+
+  <link href="https://www.linkedin.com/in/gemmacanettarres/" rel="me" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+
+
+  <header class="py-6 font-semibold text-neutral-900 dark:text-neutral print:hidden sm:py-10">
+    <nav class="flex items-start justify-between sm:items-center">
+
+      <div class="flex flex-row items-center">
+
+        <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" rel="me"
+          href="/">Home</a>
+
+
+
+      </div>
+
+
+      <ul class="flex list-none flex-col ltr:text-right rtl:text-left sm:flex-row">
+
+
+        <li class="mb-1 sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/about/"
+            title="About me">About me</a>
+        </li>
+
+        <li class="mb-1 sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+            href="/publications/" title="Publications">Publications</a>
+        </li>
+
+        <li class="mb-1">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2" href="/contact/"
+            title="Contact me">Contact</a>
+        </li>
+
+
+
+      </ul>
+
+    </nav>
+  </header>
+
+
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+
+
+      <header>
+
+        <h1 align=center class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Multitwine: Multi-Object Compositing with Text and Layout Control</h1>
+      </header>
+      <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
+
+        <div class="min-w-0 min-h-0 max-w-fit grow">
+
+
+          <div class="lead !mb-9 text-xl">
+            <b>Arxiv paper link will be uploaded soon.</b>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+                /multitwine/teaser.png" src="/multitwine/teaser.png" alt="Teaser Image" />
+
+            </figure>
+
+            <h2>Abstract</h2>
+
+            <p>Compositing an object into an image involves multiple non-trivial sub-tasks such as object placement and
+              scaling, color/lighting harmonization, viewpoint/geometry adjustment, and shadow/reflection generation.
+              Recent generative image compositing methods leverage diffusion models to handle multiple sub-tasks at
+              once. However, existing models face limitations due to their reliance on masking the original object
+              during training, which constrains their generation to the input mask. Furthermore, obtaining an accurate
+              input mask specifying the location and scale of the object in a new image can be highly challenging. To
+              overcome such limitations, we define a novel problem of unconstrained generative object compositing, i.e.,
+              the generation is not bounded by the mask, and train a diffusion-based model on a synthesized paired
+              dataset. Our first-of-its-kind model is able to generate object effects such as shadows and reflections
+              that go beyond the mask, enhancing image realism. Additionally, if an empty mask is provided, our model
+              automatically places the object in diverse natural locations and scales, accelerating the compositing
+              workflow. Our model outperforms existing object placement and compositing models in various quality
+              metrics and user studies.</p>
+
+
+
+          </div>
+
+
+
+
+          <h2>Model Architecture
+          </h2>
+
+          <figure>
+            <img class="my-0 rounded-md" srcset="
+        /outsidethebbox/pipeline.png" src="/outsidethebbox/pipeline.png" alt="Model Architecture" />
+
+
+          </figure>
+
+          <div class="lead !mb-9 text-xl">
+
+            <p>The background image and a mask are concatenated with the 3-channel
+              noise and fed into our model's backbone, Stable Diffusion 1.5 (SD), consisting of a
+              variational autoencoder (G, D) and a U-Net. The U-Net in our SD framework estimates an additional binary
+              mask that indicates generated object pixels. </p>
+
+            <p>The foreground object (O) is processed by an object encoder (E), based on CLIP ViT-L/14, and a content
+              adaptor
+              (A) aligning embeddings to text embeddings. We observe that E is scale-dependent: Larger object encoders
+              emphasize finer details, while smaller object encoders prioritize high-level structure. Thus, we
+              incorporate multiscale encoding. </p>
+
+
+
+
+          </div>
+
+
+
+
+
+            <h2> Diverse Natural Composite Images
+            </h2>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+            /outsidethebbox/diversity.png" src="/outsidethebbox/diversity.png" alt="Diversity Examples" />
+            </figure>
+
+            <div class="lead !mb-9 text-xl">
+
+              <p> The position mask is optionally empty. By feeding an empty mask (all values set to -1) instead of a
+                position mask, our model can place objects in diverse natural locations and
+                scales. This eliminates the laborious task of manual mask creation, accelerating the user workflow for
+                image compositing. Moreover,
+                the generated outputs can serve as location/scale suggestions to assist in creative ideation.</p>
+
+
+            </div>
+
+
+
+
+
+            <h2>Comparison to Generative Object Compositing Models
+            </h2>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+          /outsidethebbox/baselinescomp.png" src="/outsidethebbox/baselinescomp.png"
+                alt="Comparison to Generative Composition Models" />
+
+
+            </figure>
+
+            <div class="lead !mb-9 text-xl">
+
+              <p>When providing a position mask, our model outperforms SoTA generative composition models. Due to its
+                unconstrained compositing approach, it is able to outperform mask-based state of the art image
+                compositing models: (i) allowing the network to leverage information from the entire background
+                image rather than just a masked area leads to better background preservation (rows 3 to 6);
+                (ii) enabling object effects such as shadows and reflections beyond the bounding box allows for
+                more natural and realistic composite images (rows 3-4); (iii) our model's success is not bounded by the
+                accuracy of the bounding box thanks to its ability to adjust any misaligned bounding box (rows
+                1-2).</p>
+
+
+            </div>
+
+
+            <h2>Comparison to Object Placement Prediction Models
+            </h2>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+          /outsidethebbox/baselinespos.png" src="/outsidethebbox/baselinespos.png"
+                alt="Comparison to Object Placement Prediction Models" />
+
+
+            </figure>
+
+            <div class="lead !mb-9 text-xl">
+
+              <p>We also compare our model to state-of-the-art object placement prediction models: TopNet, GracoNet,
+                PlaceNet and TERSE, for evaluating object placement accuracy. We find that, without being explicitly
+                trained for placement prediction, our model performs comparatively to the best SoTA models.</p>
+
+
+            </div>
+
+
+            <h2>Applications
+            </h2>
+
+            <figure>
+              <img class="my-0 rounded-md" srcset="
+          /outsidethebbox/applications.png" src="/outsidethebbox/applications.png" alt="Applications" />
+
+            </figure>
+
+
+            <p>The unconstrained generation feature of our model allows for users to easily provide a rough desired
+              location.
+              Even if this mask is not accurate, our model can naturally align the object and automatically add any
+              necessary shadows (Example a) and reflections (Example b) that extend beyond the mask, resulting in a realistic composite image.
+              It also enables easy addition of interacting objects in a scene without altering the surrounding background or existing objects (Example c).
+              Additionally, our model is able to sequentially place different objects into a scene (Example d), ensuring that their relative location, scale and lighting are semantically and visually coherent.
+            </p>
+
+
+
+
+
+
+      </section>
+
+
+
+
+
+    </main>
+    <footer class="py-10 print:hidden">
+
+
+      <div class="flex items-center justify-between">
+        <div>
+
+
+          <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2024
+            Gemma Canet Tarrés
+          </p>
+
+
+
+          <p class="text-xs text-neutral-500 dark:text-neutral-400">
+
+
+            Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+              href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a
+              class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+              href="https://git.io/hugo-congo" target="_blank" rel="noopener noreferrer">Congo</a>
+          </p>
+
+        </div>
+
+
+      </div>
+
+
+    </footer>
+
+  </div>
+</body>
+
+</html>
